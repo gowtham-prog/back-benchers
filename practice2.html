@@ -1,0 +1,72 @@
+
+<Docttype!=html>
+  <html>
+  <head>
+  <title>advanced search</title>
+  <style>
+  label{
+  display :inline-block;
+  float:left;
+  clear:left;
+  width:250px;
+  text-align:right;
+  }
+  input{
+  display:inline-block;
+  float:left;
+  margin-bottom:20px;
+  width:500px;
+  size:25;
+  }
+  .baz>.button{
+  color:white;
+  background-color:#1E90FF;
+  margin-top:150px;
+  margin-left:20px;
+  width:150px;
+  }
+  .baz{
+        padding-right :10px;
+        text-align:left;
+        font-family:sans-serif;
+
+ }
+ .baz>input{
+          height:40px;
+          border-radius:5px;
+          padding-left:10px;
+          margin-top:5px;
+          width:500px;
+          font-size:14px;
+          outline:none;
+          border:1px solid #dcdcdc;
+          text-align:left;
+  }
+  .baz>label{
+    margin-top:13px;
+    text-align:left;
+    padding-left:10px;
+  }
+  div{
+  margin-top:200px;
+  }
+  </style>
+  </head>
+  <body>
+  <div>
+    <form class="baz"  action="https://www.google.com/search">
+      <label>All these words:</label> <input type="text" name="as_q" placeholder="All these words">
+      <br>
+      <label>The exact word or phrase:</label> <input type="text" name="as_epq" placeholder="The exact word or phrase">
+      <br>
+      <label>Any of these words:</label><input type="text" name="as_oq" placeholder="Any of these words">
+      <br>
+      <label>None of these words:</label><input type="text" name="as_eq" placeholder="None of these words">
+      <br>
+      <input  class="button" type="submit" name="Advanced Search" value="Advanced Search">
+      <br>
+  </div>
+  </form>
+  </body>
+  </html>
+  
